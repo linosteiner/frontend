@@ -1,13 +1,6 @@
-/*
- © 2025. Lino Steiner
-
- Verantwortlich: Lino Steiner
- Letzte Änderung: 01.11.2025
- */
 @view-transition {
   navigation: auto;
 }
-
 
 body {
   margin: 0;

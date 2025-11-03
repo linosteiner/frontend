@@ -1,9 +1,3 @@
-<!--
-  © 2025. Lino Steiner
-
-  Verantwortlich: Lino Steiner
-  Letzte Änderung: 01.11.2025
-  -->
 <?php
 session_start();
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -23,11 +17,10 @@ unset($_SESSION["bmi_result"]);
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>BMI Rechner</title>
-    <link href="../../global/global.css" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
-    <link href="../favicon.ico" rel="icon" sizes="any">
-    <link href="../icon.svg" rel="icon" type="image/svg+xml">
-    <link href="../icon.png" rel="apple-touch-icon">
+    <link href="../../global/css/style.css" rel="stylesheet">
+    <link href="../../favicon.ico" rel="icon" sizes="any">
+    <link href="../../icon.svg" rel="icon" type="image/svg+xml">
+    <link href="../../icon.png" rel="apple-touch-icon">
   </head>
   <body>
     <nav id="menu" class="menu">
