@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>BMI Statistiken</title>
+    <link href="../../global/css/style.css" rel="stylesheet">
+    <link href="../css/assignment3.css" rel="stylesheet">
+    <link href="../../favicon.ico" rel="icon" sizes="any">
+    <link href="../../icon.svg" rel="icon" type="image/svg+xml">
+    <link href="../../icon.png" rel="apple-touch-icon">
+    <script src="js/bmi-statistics.js"></script>
+
+  </head>
+  <body>
+    <nav class="menu" id="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bmi-calculator.html">BMI Rechner</a></li>
+        <li><a href="bmi-categories.html">BMI Kategorien</a></li>
+        <li><a href="#">BMI Statisiken</a></li>
+      </ul>
+    </nav>
+    <h1>BMI-Statistiken</h1>
+    <h2>Stand 01.01.2024</h2>
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="2">Name</th>
+          <th rowspan="2">ISO 3166</th>
+          <th rowspan="2">Flagge</th>
+          <th rowspan="2">Rang</th>
+          <th colspan="3">Durchschnittswerte</th>
+        </tr>
+        <tr>
+          <th>gesamt</th>
+          <th>männlich</th>
+          <th>weiblich</th>
+        </tr>
+      </thead>
+      <tbody id="bmi-statistics-body">
+      </tbody>
+    </table>
+  </body>
+</html>
